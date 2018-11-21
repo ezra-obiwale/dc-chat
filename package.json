@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "basic-vue-chat": "^0.2.1",
+    "basic-vue-chat": "git+ssh://git@github.com/ezra-obiwale/basic-vue-chat.git",
     "vue": "^2.5.17"
   },
   "devDependencies": {
