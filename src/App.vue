@@ -49,7 +49,7 @@ export default {
       let content = this.content.trim()
       this.content = ''
       if (content.startsWith('/giphy')) {
-        axios.get('https://api.giphy.com/v1/gifs/translate?api_key=nNxG4vhbZJTkurhUwLtKa8Lj8XwjAeQv&s=' + content + '&wierdness=' + this.wierdness())
+        axios.get('https://api.giphy.com/v1/gifs/translate?api_key=rJfUyudiya3KBLJ1e0pM4p0UJCT9RHJO&s=' + content + '&wierdness=' + this.wierdness())
           .then(resp => {
             this.updateMessage(resp.data.data.images.downsized_medium.url, true)
 
