@@ -21,6 +21,9 @@
         </div>
       </div>
     </basic-chat>
+    <p style="text-align: left">
+      Start with <strong>/giphy</strong> to add a gif image
+    </p>
   </div>
 </template>
 
